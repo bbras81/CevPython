@@ -1,0 +1,6 @@
+d = float(input('Quanto vale este valor? R$'))
+# tax = float(input('Qual é a taxa de converssão? US'))
+euro = float(d / 5.55)
+dolar = float(d / 5.13)
+print('O Valor de R${} vale em EUR€{:.2f}'.format(d, euro))
+print('O valor de R${} vale em USD${:.2f}'.format(d, dolar))
