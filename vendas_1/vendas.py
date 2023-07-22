@@ -20,3 +20,4 @@ print(quantidade_produtos)
 # ticket médio por produto
 
 #enviar mail
+
